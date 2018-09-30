@@ -14,6 +14,8 @@
 		20209478215E588400CDFC67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20209476215E588400CDFC67 /* LaunchScreen.storyboard */; };
 		20209483215E588400CDFC67 /* ConTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20209482215E588400CDFC67 /* ConTests.swift */; };
 		2020948E215E588500CDFC67 /* ConUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2020948D215E588500CDFC67 /* ConUITests.swift */; };
+		2031338D2160C09300E0202F /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031338C2160C09300E0202F /* Concentration.swift */; };
+		2031338F2160C16700E0202F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031338E2160C16700E0202F /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		20209489215E588500CDFC67 /* ConUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2020948D215E588500CDFC67 /* ConUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConUITests.swift; sourceTree = "<group>"; };
 		2020948F215E588500CDFC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2031338C2160C09300E0202F /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		2031338E2160C16700E0202F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +101,11 @@
 		2020946C215E588200CDFC67 /* Con */ = {
 			isa = PBXGroup;
 			children = (
-				2020946D215E588200CDFC67 /* AppDelegate.swift */,
+				2020949B215E59A100CDFC67 /* Supporting Files */,
 				2020946F215E588200CDFC67 /* ViewController.swift */,
 				20209471215E588200CDFC67 /* Main.storyboard */,
-				20209474215E588400CDFC67 /* Assets.xcassets */,
-				20209476215E588400CDFC67 /* LaunchScreen.storyboard */,
+				2031338C2160C09300E0202F /* Concentration.swift */,
+				2031338E2160C16700E0202F /* Card.swift */,
 				20209479215E588400CDFC67 /* Info.plist */,
 			);
 			path = Con;
@@ -123,6 +127,16 @@
 				2020948F215E588500CDFC67 /* Info.plist */,
 			);
 			path = ConUITests;
+			sourceTree = "<group>";
+		};
+		2020949B215E59A100CDFC67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2020946D215E588200CDFC67 /* AppDelegate.swift */,
+				20209474215E588400CDFC67 /* Assets.xcassets */,
+				20209476215E588400CDFC67 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			files = (
 				20209470215E588200CDFC67 /* ViewController.swift in Sources */,
 				2020946E215E588200CDFC67 /* AppDelegate.swift in Sources */,
+				2031338D2160C09300E0202F /* Concentration.swift in Sources */,
+				2031338F2160C16700E0202F /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
