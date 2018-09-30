@@ -30,7 +30,6 @@ class ViewController: UIViewController {
         } else {
             print("card was not in buttons")
         }
-        
     }
     
     func updateViewFromModel() {
